@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"doc",
+				"document	Document"
+			],
+			[
 				"b",
 				"background"
 			],
@@ -180,19 +184,11 @@
 	"buffers":
 	[
 		{
-			"file": "bootstrap/paths.php",
+			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 1758,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bootstrap/start.php",
-			"settings":
-			{
-				"buffer_size": 2345,
-				"line_ending": "Unix"
+				"buffer_size": 101,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -200,50 +196,46 @@
 			"settings":
 			{
 				"buffer_size": 753,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/config/app.php",
-			"settings":
-			{
-				"buffer_size": 7644,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/config/local/app.php",
-			"settings":
-			{
-				"buffer_size": 450,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes.php",
-			"settings":
-			{
-				"buffer_size": 99,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "app/views/layout.blade.php",
 			"settings":
 			{
-				"buffer_size": 614,
-				"line_ending": "Unix"
+				"buffer_size": 274,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public_html/css/main.scss",
+			"settings":
+			{
+				"buffer_size": 210,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 104.0,
 		"selected_items":
 		[
 			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"di",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -259,16 +251,8 @@
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"book",
@@ -374,16 +358,23 @@
 	[
 		"/C/xampp/htdocs/nimbo/nimbo-projects",
 		"/C/xampp/htdocs/nimbo/nimbo-projects/app",
-		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config",
-		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/local",
-		"/C/xampp/htdocs/nimbo/nimbo-projects/app/database",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/views",
 		"/C/xampp/htdocs/nimbo/nimbo-projects/public_html"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/database.php",
-		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/local/database.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/public_html/css/main.scss",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/public_html/css/main.sass",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/public_html/img",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/bootstrap/paths.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/bootstrap/start.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/composer.json",
 		"/C/xampp/htdocs/nimbo/nimbo-projects/app/routes.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/views/layout.blade.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/app.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/local/app.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/local/database.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/database.php",
 		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
 		"/C/xampp/htdocs/nimbo/nimbo-projects/.gitattributes",
 		"/C/xampp/htdocs/nimbo/nimbo-projects/.gitignore",
@@ -512,53 +503,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "bootstrap/paths.php",
+					"file": "app/routes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1758,
+						"buffer_size": 101,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								890,
-								890
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "bootstrap/start.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2345,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								902,
-								902
+								9,
+								9
 							]
 						],
 						"settings":
@@ -573,7 +535,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "composer.json",
 					"semi_transient": false,
 					"settings":
@@ -602,54 +564,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/config/app.php",
+					"buffer": 2,
+					"file": "app/views/layout.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7644,
+						"buffer_size": 274,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5813,
-								5813
+								104,
+								104
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1980.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/config/local/app.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								442,
-								442
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -660,60 +593,31 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/routes.php",
+					"buffer": 3,
+					"file": "public_html/css/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 99,
+						"buffer_size": 210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								99,
-								99
+								159,
+								159
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/layout.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								614,
-								614
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

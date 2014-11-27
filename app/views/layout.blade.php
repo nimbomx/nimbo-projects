@@ -1,41 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Nimbo Projects</title>
-	<style>
-		@import url(//fonts.googleapis.com/css?family=Lato:700);
-
-		body {
-			margin:0;
-			font-family:'Lato', sans-serif;
-			text-align:center;
-			color: #999;
-		}
-
-		.welcome {
-			width: 300px;
-			height: 200px;
-			position: absolute;
-			left: 50%;
-			top: 50%;
-			margin-left: -150px;
-			margin-top: -100px;
-		}
-
-		a, a:visited {
-			text-decoration:none;
-		}
-
-		h1 {
-			font-size: 32px;
-			margin: 16px 0 0 0;
-		}
-	</style>
+	{{ HTML::style('css/main.css')}}
+	{{ HTML::script('js/jquery-1.11.1.min.js')}}
 </head>
 <body>
-	<div class="welcome">
-		<h1>Nimbo Projects.</h1>
+<div>		<h1>Nimbo Projects.</h1>
 	</div>
+	<script type="text/javascript">
+$(function(){
+	//alert('ready');
+})
+	</script>
 </body>
 </html>
