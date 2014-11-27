@@ -1,6 +1,6 @@
 <?php
 
-print App::environment();
+//print App::environment();
 
 Route::get('/', function()
 {
