@@ -8,6 +8,7 @@
 </head>
 <body>
 <div>		<h1>Nimbo Projects.</h1>
+<img src="{{ asset('ui/Logo-nimbo3.png') }}">
 	</div>
 	<script type="text/javascript">
 $(function(){
