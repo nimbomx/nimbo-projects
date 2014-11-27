@@ -1,0 +1,596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"background"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"li",
+				"light"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bl",
+				"blue"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"id",
+				"id	Attr"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"mat",
+				"margin-left"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"ty",
+				"type	Attr"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"pla",
+				"plazasArray"
+			],
+			[
+				"Pla",
+				"PlazaDesc"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"sli",
+				"slideToggle	.slideToggle()"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"fa",
+				"fadeto	.fadeTo()"
+			],
+			[
+				"fad",
+				"fadeIn	.fadeIn()"
+			],
+			[
+				"thi",
+				"this	$(this)"
+			],
+			[
+				"fu",
+				"function(){\n	$0\n})();	(function(){\n	$0\n})();"
+			],
+			[
+				"v",
+				"value	Attr"
+			],
+			[
+				"min",
+				"minDate"
+			],
+			[
+				"style",
+				"style	Attr"
+			],
+			[
+				"fol",
+				"folioFormat"
+			],
+			[
+				"fi",
+				"fixed"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"i",
+				"if	<?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"cen",
+				"center"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"bokkma",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"bookma",
+				"SublimeBookmarks: Remove A Bookmark"
+			],
+			[
+				"remove b",
+				"SublimeBookmarks: Remove A Bookmark"
+			],
+			[
+				"goto",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Bookmarks: Select Next"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"termin",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"ter",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"term",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"termi",
+				"Preferences: Terminal Settings – Default"
+			],
+			[
+				"comp",
+				"Composer: Dump Autoload"
+			],
+			[
+				"compo",
+				"Composer: Install"
+			],
+			[
+				"com",
+				"Composer: Self Update"
+			],
+			[
+				"Laraver ma",
+				"Laravel Artisan: Migrate: Make"
+			],
+			[
+				"Laravel ",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/local/database.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/.gitattributes",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/app/config/database.php",
+		"/C/xampp/htdocs/nimbo/nimbo-projects/.gitignore",
+		"/C/Users/Ernesto Hernandez/Desktop/app.php",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Ernesto Hernandez/AppData/Local/Temp/fz3temp-1/app.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/reportesSinFecha.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/detallesReagenda.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/reportesHoy.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/detallesReporte.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/reportesFuturos.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/tomorrowEditor.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/controllers/ReporteController.php",
+		"/C/xampp/htdocs/valoran/postventa/public_html/js/reportes/nuevo.js",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/nuevoReporteAjax.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/database/migrations/2014_09_22_181508_Reportes.php",
+		"/C/xampp/htdocs/valoran/postventa/app/controllers/BusquedaController.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/listaReportesAjax.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/listaFichasAjax.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/-reportesDetalle.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/bak.detallesReagenda.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/layout.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/reportesDiagnostico.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/dashboardAjax.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/controllers/ContentController.php",
+		"/C/xampp/htdocs/valoran/postventa/public_html/js/plugins.js",
+		"/C/xampp/htdocs/valoran/postventa/app/helpers/ReportesHelpers.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/dash/reportesFirma.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/public_html/css/jquery.dataTables.min.css",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/reportesEditor.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/ticketEditor.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/ticketViewer.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/ticketViewer.blade.png",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/SublimeBookmarks/Default.sublime-keymap",
+		"/C/xampp/htdocs/valoran/postventa/app/storage/views/4fbcd81adde323e143a01702d8f53767",
+		"/C/xampp/htdocs/valoran/postventa/app/views/assets/leftBar.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/assets/topBar.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/entregas/listaEntregaAjax.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/controllers/DashboardController.php",
+		"/C/xampp/htdocs/valoran/postventa/app/controllers/AuthLdapController.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/acceso/editar.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/models/PlazaPrototipo.php",
+		"/C/xampp/htdocs/valoran/postventa/app/routes.php",
+		"/C/xampp/htdocs/valoran/postventa/app/controllers/ActionController.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/clientes/listaClientes.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/controllers/ClientesController.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/reportesDetalle.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/reportesList.blade.php",
+		"/C/xampp/htdocs/valoran/postventa/app/views/sec/reportes/detalleReporte.blade.php",
+		"/C/Users/Ernesto Hernandez/Desktop/xmll.xml",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/User/Default.sublime-keymap",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/Terminal/Default (Windows).sublime-keymap",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/Terminal/messages/1.4.0.txt",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/Terminal/Main.sublime-menu",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/Terminal/Context.sublime-menu",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/cmd/Context.sublime-menu",
+		"/C/Users/Ernesto Hernandez/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/xampp/htdocs/valoran/postventa/public_html/test.html",
+		"/C/xampp/htdocs/valoran/postventa/.gitignore",
+		"/C/xampp/htdocs/valoran/postventa/app/start/local.php",
+		"/C/xampp/htdocs/valoran/postventa/vendor/psr/log/Psr/Log/LoggerAwareInterface.php",
+		"/C/xampp/htdocs/valoran/postventa/app/storage/logs/laravel.log",
+		"/C/Users/Ernesto Hernandez/Documents/SublimeProjects/host.nimbo.mx.sublime-project",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/public_html/css/main.scss",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/public_html/css/main.css",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/SCSS/nimbo.scss",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/SCSS/test2.scss",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/app/views/layout.blade.php",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/SCSS/main.scss",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/SCSS/test.scss",
+		"/C/xampp/htdocs/nimbo/host.nimbo.mx/public_html/index.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"seourl",
+			"url",
+			"input",
+			"Reporte()",
+			"populateClientes",
+			"numOficial",
+			"Prototipo",
+			"/images/",
+			"PR",
+			"saveReporte",
+			"getReporte",
+			"reporteItem",
+			"reportesList",
+			"indent",
+			"reindent"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/assets/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.composer":
+	{
+		"height": 100.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "nimbo-projects.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				".gitignore"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\xampp\\htdocs\\valoran\\dashboards\\dashboards.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"seoUrl",
+				"seoUrl"
+			],
+			[
+				"toggleMenu",
+				"toggleMenu"
+			],
+			[
+				"showRepDet",
+				"showRepDet"
+			],
+			[
+				"getlistTicketsHoy",
+				"getlistTicketsHoy"
+			],
+			[
+				"getTickets",
+				"getTickets"
+			],
+			[
+				"getClosed",
+				"getClosedTickets"
+			],
+			[
+				"getReporte",
+				"getReporteDiag"
+			],
+			[
+				"show",
+				"showRepDiag"
+			],
+			[
+				"showRep",
+				"showRepDiag"
+			],
+			[
+				"ReportesHelpers",
+				"ReportesHelpers"
+			],
+			[
+				"we",
+				"welcome"
+			]
+		],
+		"width": 801.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
